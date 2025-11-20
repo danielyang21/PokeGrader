@@ -1,13 +1,53 @@
+# PokeGrader Training Quickstart Guide
+
+## Clean Slate Setup Complete
+
+All old training scripts, models, and logs have been archived to:
+- `archive/old_training/` - Old training scripts
+- `archive/old_models/` - Old model checkpoints (including broken centering model)
+- `archive/old_logs/` - Old training logs
+
+## What We Kept
+
+### Scraping Infrastructure
+- `src/scraper/` - All scraping code (cert_number_finder.py, etc.)
+- `data/cert_numbers.json` - Your 66 valid cert numbers
+- `data/` - Cached card images and metadata
+
+### Model Architecture
+- `src/models/card_grader.py` - Model definitions (already correct)
+
+### Useful Tools
+- `test_card.py` - Test models on your own images
+- `visualize_extractions.py` - Verify corner/edge extraction quality
+- `TRAINING_LESSONS_LEARNED.md` - All architecture insights
+- `ARCHITECTURE_REDESIGN.md` - Original problem analysis
+
+## Writing Your New Training Script
+
+### Location
+Create: `src/training/train.py`
+
+### Key Components Needed
+
+#### 1. Data Loading
+```python
 import json
 from pathlib import Path
 from PIL import Image
-import torch
-import torch.nn as nn
-from torchvision import transforms
+from src.scraper.tag_scraper import scrape_card_metadata
 
-from src.scraper.enhanced_metadata_scraper import EnhancedMetadataScraper
-from src.models.card_grader import create_model
+# Load cert numbers
+with open('data/cert_numbers.json', 'r') as f:
+    cert_numbers = json.load(f)
 
+# For each cert, scrape metadata
+metadata = scrape_card_metadata(cert_number)
+# Returns dict with: front_url, back_url, corners, edges, centering, etc.
+```
+
+#### 2. Image Extraction Functions
+```python
 def extract_corner_images(front_img: Image, back_img: Image, corner_size=100):
     """
     Extract 8 corner crops (4 front + 4 back).
@@ -15,46 +55,45 @@ def extract_corner_images(front_img: Image, back_img: Image, corner_size=100):
 
     Order: TL, TR, BL, BR (front), TL, TR, BL, BR (back)
     """
-
     corners = []
-
     for img in [front_img, back_img]:
-        width, height = img.size
-        corners.append(img.crop((0, 0, corner_size, corner_size)))  # Top-left
-        corners.append(img.crop((width - corner_size, 0, width, corner_size)))  # Top-right
-        corners.append(img.crop((0, height - corner_size, corner_size, height)))  # Bottom-left
-        corners.append(img.crop((width - corner_size, height - corner_size, width, height)))  # Bottom-right
+        w, h = img.size
+        corners.append(img.crop((0, 0, corner_size, corner_size)))  # TL
+        corners.append(img.crop((w-corner_size, 0, w, corner_size)))  # TR
+        corners.append(img.crop((0, h-corner_size, corner_size, h)))  # BL
+        corners.append(img.crop((w-corner_size, h-corner_size, w, h)))  # BR
     return corners
 
 def extract_edge_images(front_img: Image, back_img: Image, edge_width=50):
     """
     Extract 8 edge strips (4 front + 4 back).
-    Returns: List of 8 PIL Images
+    Returns: List of 8 PIL Images (edges)
 
     Order: Top, Right, Bottom, Left (front), Top, Right, Bottom, Left (back)
     """
-
     edges = []
-
     for img in [front_img, back_img]:
-        width, height = img.size
-        edges.append(img.crop((0, 0, width, edge_width)))  # Top
-        edges.append(img.crop((width - edge_width, 0, width, height)))  # Right
-        edges.append(img.crop((0, height - edge_width, width, height)))  # Bottom
-        edges.append(img.crop((0, 0, edge_width, height)))  # Left
+        w, h = img.size
+        edges.append(img.crop((0, 0, w, edge_width)))  # Top
+        edges.append(img.crop((w-edge_width, 0, w, h)))  # Right
+        edges.append(img.crop((0, h-edge_width, w, h)))  # Bottom
+        edges.append(img.crop((0, 0, edge_width, h)))  # Left
     return edges
+```
 
-
+#### 3. Target Parsing
+```python
 def parse_corner_targets(metadata):
     """
     Parse corner scores from metadata.
     Returns: Tensor of shape [8, 3] for 8 corners × [fray, fill, angle]
     """
     corner_scores = []
-    for corner in metadata['corners']:
-        fray = corner['fray'] if corner['fray'] is not None else 1000.0
-        fill = corner['fill'] if corner['fill'] is not None else 1000.0
-        angle = corner['angle'] if corner['angle'] is not None else 1000.0
+    for key in ['front_TL', 'front_TR', 'front_BL', 'front_BR',
+                'back_TL', 'back_TR', 'back_BL', 'back_BR']:
+        fray = metadata[f'corner_{key}_fray']
+        fill = metadata[f'corner_{key}_fill']
+        angle = metadata[f'corner_{key}_angle']
         corner_scores.append([fray, fill, angle])
     return torch.tensor(corner_scores, dtype=torch.float32)
 
@@ -64,9 +103,10 @@ def parse_edge_targets(metadata):
     Returns: Tensor of shape [8, 2] for 8 edges × [fray, fill]
     """
     edge_scores = []
-    for edge in metadata['edges']:
-        fray = edge['fray'] if edge['fray'] is not None else 1000.0
-        fill = edge['fill'] if edge['fill'] is not None else 1000.0
+    for key in ['front_top', 'front_right', 'front_bottom', 'front_left',
+                'back_top', 'back_right', 'back_bottom', 'back_left']:
+        fray = metadata[f'edge_{key}_fray']
+        fill = metadata[f'edge_{key}_fill']
         edge_scores.append([fray, fill])
     return torch.tensor(edge_scores, dtype=torch.float32)
 
@@ -95,18 +135,27 @@ def parse_centering_targets(metadata):
     back_t = float(tb_str.split('T')[0]) / 100.0
 
     return torch.tensor([front_l, front_t, back_l, back_t], dtype=torch.float32)
+```
 
+#### 4. Model Creation
+```python
+from src.models.card_grader import create_model
+import torch
+import torch.nn as nn
 
 device = 'mps'  # or 'cuda' or 'cpu'
 
+# Corner Model
 corner_model = create_model(num_grade_classes=3, pretrained=True, freeze_backbone=True)
 corner_model = corner_model.to(device)
 corner_optimizer = torch.optim.Adam(corner_model.parameters(), lr=0.0001)
 
+# Edge Model
 edge_model = create_model(num_grade_classes=2, pretrained=True, freeze_backbone=True)
 edge_model = edge_model.to(device)
 edge_optimizer = torch.optim.Adam(edge_model.parameters(), lr=0.0001)
 
+# Centering Model (SPECIAL - needs concatenated features)
 centering_model = create_model(num_grade_classes=3, pretrained=True, freeze_backbone=True)
 centering_model.centering_head = nn.Sequential(
     nn.Linear(512 * 2, 256),  # 512 features from front + 512 from back
@@ -123,6 +172,11 @@ centering_optimizer = torch.optim.Adam(centering_model.parameters(), lr=0.0001)
 
 # Loss function
 criterion = nn.MSELoss()
+```
+
+#### 5. Image Transforms
+```python
+from torchvision import transforms
 
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
@@ -132,13 +186,11 @@ transform = transforms.Compose([
         std=[0.229, 0.224, 0.225]    # ImageNet std
     )
 ])
+```
 
-
+#### 6. Training Loop Structure
+```python
 num_epochs = 10
-scraper = EnhancedMetadataScraper()
-with open('data/cert_numbers.json', 'r') as f:
-    data = json.load(f)
-    cert_numbers = data['cert_numbers']  # Extract the cert_numbers array
 
 for epoch in range(num_epochs):
     corner_losses = []
@@ -147,18 +199,11 @@ for epoch in range(num_epochs):
 
     for cert_number in cert_numbers:
         # 1. Scrape metadata
-        metadata = scraper.extract_metadata(cert_number)
+        metadata = scrape_card_metadata(cert_number)
 
-        # 2. Load images from cached files
-        front_path = f"src/scraper/data/tag_cards/{cert_number}/front.jpg"
-        back_path = f"src/scraper/data/tag_cards/{cert_number}/back.jpg"
-
-        try:
-            front_img = Image.open(front_path).convert('RGB')
-            back_img = Image.open(back_path).convert('RGB')
-        except Exception as e:
-            print(f"Failed to load images for {cert_number}: {e}")
-            continue
+        # 2. Load images
+        front_img = Image.open(metadata['front_image_path']).convert('RGB')
+        back_img = Image.open(metadata['back_image_path']).convert('RGB')
 
         # 3. Extract regions
         corner_crops = extract_corner_images(front_img, back_img)
@@ -213,6 +258,49 @@ torch.save(corner_model.state_dict(), 'models/corner_model.pth')
 torch.save(edge_model.state_dict(), 'models/edge_model.pth')
 torch.save(centering_model.state_dict(), 'models/centering_model.pth')
 print("Models saved!")
+```
 
+## Critical Details
 
+### Centering Model Architecture
+The centering model is DIFFERENT from corner/edge models:
+1. Uses FULL card images (not crops)
+2. Extracts features from both front and back
+3. Concatenates features: 512 (front) + 512 (back) = 1024
+4. Passes through centering_head (1024 → 4 outputs)
+5. Outputs are [front_L%, front_T%, back_L%, back_T%] in range 0-1
+6. RIGHT% = 100 - LEFT%, BOTTOM% = 100 - TOP% (computed in test script)
 
+### Model Methods
+- `model.predict_corner(tensor)` - For corner predictions
+- `model.predict_edge(tensor)` - For edge predictions
+- `model.extract_features(tensor)` - Get 512-dim feature vector for centering
+- Use `model.centering_head(features)` - For centering predictions
+
+### Testing After Training
+```bash
+python test_card.py --front ~/Desktop/front.png --back ~/Desktop/back.png
+```
+
+This will verify:
+- Centering adds to 100% (L+R=100, T+B=100) ✓
+- Corner scores are reasonable
+- Edge scores are reasonable
+
+## Common Issues to Avoid
+
+1. Don't predict 8 centering values - only predict 4!
+2. Don't forget Sigmoid activation on centering head
+3. Don't train on full cards for corners/edges - use crops!
+4. Don't forget to normalize centering targets to 0-1 range
+5. Don't forget ImageNet normalization for image transforms
+
+## Next Steps
+
+1. Write `src/training/train.py` yourself using this guide
+2. Train on 66 valid certs
+3. Test on your card images
+4. Verify centering math works
+5. Scale up to more data if needed
+
+Good luck! All the hard architectural decisions are documented in `TRAINING_LESSONS_LEARNED.md`.

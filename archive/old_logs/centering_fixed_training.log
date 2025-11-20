@@ -1,0 +1,26 @@
+2025-11-19 14:44:35,048 - INFO - Loaded 66 cert numbers
+2025-11-19 14:44:35,048 - INFO - Limited to 66 cards
+2025-11-19 14:44:35,065 - INFO - Using device: mps
+/Users/dyang/Documents/GitHub/PokeGrader/venv/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/dyang/Documents/GitHub/PokeGrader/venv/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-11-19 14:44:36,441 - INFO - Loading pretrained corner model from models/corner_model.pth
+2025-11-19 14:44:36,577 - INFO - Loading pretrained edge model from models/edge_model.pth
+2025-11-19 14:44:36,705 - INFO - Loading pretrained centering model from models/centering_model.pth
+Traceback (most recent call last):
+  File "/Users/dyang/Documents/GitHub/PokeGrader/src/training/stream_trainer.py", line 549, in <module>
+    main()
+    ~~~~^^
+  File "/Users/dyang/Documents/GitHub/PokeGrader/src/training/stream_trainer.py", line 544, in main
+    trainer = OnlineCardTrainer(device=device, load_pretrained=not args.no_pretrained)
+  File "/Users/dyang/Documents/GitHub/PokeGrader/src/training/stream_trainer.py", line 85, in __init__
+    self.centering_model.load_state_dict(torch.load(centering_path, map_location=device))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dyang/Documents/GitHub/PokeGrader/venv/lib/python3.13/site-packages/torch/nn/modules/module.py", line 2629, in load_state_dict
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: Error(s) in loading state_dict for PokeGraderModel:
+	size mismatch for centering_head.6.weight: copying a param with shape torch.Size([8, 128]) from checkpoint, the shape in current model is torch.Size([4, 128]).
+	size mismatch for centering_head.6.bias: copying a param with shape torch.Size([8]) from checkpoint, the shape in current model is torch.Size([4]).

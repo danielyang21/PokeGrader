@@ -1,0 +1,2289 @@
+2025-11-19 11:06:08,898 - INFO - Loaded 66 cert numbers
+2025-11-19 11:06:08,898 - INFO - Limited to 66 cards
+2025-11-19 11:06:08,919 - INFO - Using device: mps
+/Users/dyang/Documents/GitHub/PokeGrader/venv/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/Users/dyang/Documents/GitHub/PokeGrader/venv/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2025-11-19 11:06:10,292 - INFO - Loading pretrained corner model from models/corner_model.pth
+2025-11-19 11:06:10,458 - INFO - Loading pretrained edge model from models/edge_model.pth
+2025-11-19 11:06:10,657 - INFO - Loading pretrained centering model from models/centering_model.pth
+2025-11-19 11:06:10,810 - INFO - ============================================================
+2025-11-19 11:06:10,810 - INFO - ONLINE TRAINING MODE
+2025-11-19 11:06:10,810 - INFO - ============================================================
+2025-11-19 11:06:10,810 - INFO - Total cards to process: 66
+2025-11-19 11:06:10,810 - INFO - Scrape batch size: 10
+2025-11-19 11:06:10,810 - INFO - 
+Processing batch 1/7
+2025-11-19 11:06:11,505 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:06:11,523 - INFO - Extracting metadata for: E9413389
+2025-11-19 11:06:18,915 - INFO - Parsing category scores...
+2025-11-19 11:06:18,915 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:06:18,915 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:06:18,915 - INFO -   TAG Score: 984/1000
+2025-11-19 11:06:18,915 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:06:18,915 - INFO -   Front: 52L/48R 50T/50B
+2025-11-19 11:06:18,915 - INFO -   Back: 46L/54R 51T/49B
+2025-11-19 11:06:18,916 - INFO - 
+Dimensions: 3.462" x 2.473"
+2025-11-19 11:06:18,916 - INFO - Grade: GEM MINT
+2025-11-19 11:06:18,916 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:06:18,916 - INFO - 
+Extracting individual edge scores...
+Scraping cards:  10%|█         | 1/10 [00:37<05:36, 37.44s/it]2025-11-19 11:06:48,959 - INFO - Extracting metadata for: S1091902
+2025-11-19 11:06:54,580 - INFO - Parsing category scores...
+2025-11-19 11:06:54,581 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:06:54,581 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:06:54,581 - INFO -   TAG Score: 973/1000
+2025-11-19 11:06:54,581 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:06:54,581 - INFO -   Front: 53L/47R 51T/49B
+2025-11-19 11:06:54,581 - INFO -   Back: 48L/52R 52T/48B
+2025-11-19 11:06:54,581 - INFO - 
+Dimensions: 3.461" x 2.475"
+2025-11-19 11:06:54,581 - INFO - Grade: GEM MINT
+2025-11-19 11:06:54,581 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:06:54,581 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:06:54,581 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:06:54,581 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:06:54,581 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:06:54,581 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:06:54,581 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Front Right: Fray=1000, Fill=999
+2025-11-19 11:06:54,581 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Front Left: Fray=999, Fill=997
+2025-11-19 11:06:54,581 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:06:54,581 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  20%|██        | 2/10 [01:11<04:43, 35.48s/it]2025-11-19 11:07:23,064 - INFO - Extracting metadata for: G4652670
+2025-11-19 11:07:28,765 - INFO - Parsing category scores...
+2025-11-19 11:07:28,765 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:07:28,765 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:07:28,765 - INFO -   TAG Score: 904/1000
+2025-11-19 11:07:28,765 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:07:28,765 - INFO -   Front: 45L/55R 40T/60B
+2025-11-19 11:07:28,765 - INFO -   Back: 53L/47R 43T/57B
+2025-11-19 11:07:28,765 - INFO - 
+Dimensions: 3.46" x 2.47"
+2025-11-19 11:07:28,765 - INFO - Grade: MINT
+2025-11-19 11:07:28,765 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:07:28,765 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:07:28,765 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:07:28,765 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:07:28,765 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:07:28,765 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:07:28,765 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:07:28,765 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:07:28,765 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:07:28,765 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  30%|███       | 3/10 [01:42<03:54, 33.57s/it]2025-11-19 11:07:54,363 - INFO - Extracting metadata for: E2685884
+2025-11-19 11:08:00,104 - INFO - Parsing category scores...
+2025-11-19 11:08:00,104 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:08:00,104 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:08:00,104 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:08:00,104 - INFO -   Front: 46L/54R 48T/52B
+2025-11-19 11:08:00,104 - INFO -   Back: 50L/50R 50T/50B
+2025-11-19 11:08:00,104 - INFO - 
+Dimensions: 3.463" x 2.481"
+2025-11-19 11:08:00,104 - INFO - Grade: GEM MINT
+2025-11-19 11:08:00,104 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:08:00,104 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:08:00,104 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:08:00,104 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:08:00,104 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:08:00,104 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:08:00,104 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:00,104 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  40%|████      | 4/10 [02:12<03:13, 32.19s/it]2025-11-19 11:08:24,430 - INFO - Extracting metadata for: D1124988
+2025-11-19 11:08:29,875 - INFO - Parsing category scores...
+2025-11-19 11:08:29,875 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:08:29,875 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:08:29,875 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:08:29,875 - INFO -   Front: 54L/46R 56T/44B
+2025-11-19 11:08:29,875 - INFO -   Back: 45L/55R 49T/51B
+2025-11-19 11:08:29,875 - INFO - 
+Dimensions: 3.461" x 2.477"
+2025-11-19 11:08:29,875 - INFO - Grade: MINT
+2025-11-19 11:08:29,875 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:08:29,875 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:08:29,875 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:08:29,875 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:08:29,875 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:08:29,875 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:08:29,875 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO -   Front Right: Fray=997, Fill=996
+2025-11-19 11:08:29,875 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:29,875 - INFO -   Front Left: Fray=999, Fill=998
+2025-11-19 11:08:29,875 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:08:29,876 - INFO -   Back Right: Fray=1000, Fill=999
+2025-11-19 11:08:29,876 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:29,876 - INFO -   Back Left: Fray=998, Fill=997
+Scraping cards:  50%|█████     | 5/10 [02:26<02:07, 25.55s/it]2025-11-19 11:08:38,205 - INFO - Extracting metadata for: D3825545
+2025-11-19 11:08:43,651 - INFO - Parsing category scores...
+2025-11-19 11:08:43,651 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:08:43,651 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:08:43,651 - INFO -   TAG Score: 957/1000
+2025-11-19 11:08:43,652 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:08:43,652 - INFO -   Front: 53L/47R 45T/55B
+2025-11-19 11:08:43,652 - INFO -   Back: 46L/54R 46T/54B
+2025-11-19 11:08:43,652 - INFO - 
+Dimensions: 3.461" x 2.471"
+2025-11-19 11:08:43,652 - INFO - Grade: GEM MINT
+2025-11-19 11:08:43,652 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:08:43,652 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:08:43,652 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:08:43,652 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:08:43,652 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:08:43,652 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:08:43,652 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:08:43,652 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  60%|██████    | 6/10 [03:09<02:05, 31.49s/it]2025-11-19 11:09:21,241 - INFO - Extracting metadata for: L3300604
+2025-11-19 11:09:26,672 - INFO - Parsing category scores...
+2025-11-19 11:09:26,672 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:09:26,672 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:09:26,672 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:09:26,672 - INFO -   Front: 55L/45R 49T/51B
+2025-11-19 11:09:26,672 - INFO -   Back: 45L/55R 50T/50B
+2025-11-19 11:09:26,672 - INFO - 
+Dimensions: 3.462" x 2.475"
+2025-11-19 11:09:26,672 - INFO - Grade: GEM MINT
+2025-11-19 11:09:26,672 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:09:26,672 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:09:26,672 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:09:26,672 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:09:26,672 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:09:26,672 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:09:26,672 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:09:26,672 - INFO -   Front Right: Fray=1000, Fill=993
+2025-11-19 11:09:26,672 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO -   Front Left: Fray=1000, Fill=994
+2025-11-19 11:09:26,672 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:09:26,672 - INFO -   Back Right: Fray=1000, Fill=996
+2025-11-19 11:09:26,672 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:09:26,672 - INFO -   Back Left: Fray=1000, Fill=997
+Scraping cards:  70%|███████   | 7/10 [03:41<01:35, 31.73s/it]2025-11-19 11:09:53,446 - INFO - Extracting metadata for: X9110602
+2025-11-19 11:09:58,877 - INFO - Parsing category scores...
+2025-11-19 11:09:58,877 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:09:58,877 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:09:58,877 - INFO -   TAG Score: 982/1000
+2025-11-19 11:09:58,877 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:09:58,877 - INFO -   Front: 48L/52R 48T/52B
+2025-11-19 11:09:58,877 - INFO -   Back: 52L/48R 48T/52B
+2025-11-19 11:09:58,877 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:09:58,877 - INFO - Grade: GEM MINT
+2025-11-19 11:09:58,877 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:09:58,877 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:09:58,877 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:09:58,878 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:09:58,878 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:09:58,878 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:09:58,878 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:09:58,878 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:09:58,878 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [03:55<00:52, 26.10s/it]2025-11-19 11:10:07,485 - INFO - Extracting metadata for: D4582551
+2025-11-19 11:10:12,998 - INFO - Parsing category scores...
+2025-11-19 11:10:12,998 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:10:12,999 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:10:12,999 - INFO -   TAG Score: 937/1000
+2025-11-19 11:10:12,999 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:10:12,999 - INFO -   Front: 52L/48R 43T/57B
+2025-11-19 11:10:12,999 - INFO -   Back: 44L/56R 47T/53B
+2025-11-19 11:10:12,999 - INFO - 
+Dimensions: 3.463" x 2.474"
+2025-11-19 11:10:12,999 - INFO - Grade: MINT
+2025-11-19 11:10:12,999 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:10:12,999 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:10:12,999 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:10:12,999 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:10:12,999 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:10:12,999 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:10:12,999 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:10:12,999 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  90%|█████████ | 9/10 [04:10<00:22, 22.36s/it]2025-11-19 11:10:21,644 - INFO - Extracting metadata for: P3839579
+2025-11-19 11:10:27,010 - INFO - Parsing category scores...
+2025-11-19 11:10:27,010 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:10:27,010 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:10:27,010 - INFO -   TAG Score: 942/1000
+2025-11-19 11:10:27,011 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:10:27,011 - INFO -   Front: 48L/52R 56T/44B
+2025-11-19 11:10:27,011 - INFO -   Back: 48L/52R 53T/47B
+2025-11-19 11:10:27,011 - INFO - 
+Dimensions: 3.468" x 2.477"
+2025-11-19 11:10:27,011 - INFO - Grade: MINT
+2025-11-19 11:10:27,011 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:10:27,011 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:10:27,011 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:10:27,011 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:10:27,011 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:10:27,011 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:10:27,011 - INFO -   Front Top: Fray=999, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:10:27,011 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:10:27,011 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards: 100%|██████████| 10/10 [04:40<00:00, 24.71s/it]Scraping cards: 100%|██████████| 10/10 [04:40<00:00, 28.01s/it]
+2025-11-19 11:10:51,860 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:10:53,234 - INFO - Corner batch loss: 4.2248
+2025-11-19 11:10:54,222 - INFO - Edge batch loss: 1.5276
+2025-11-19 11:10:54,518 - INFO - Centering batch loss: 113.5595
+2025-11-19 11:10:54,518 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:10:54,518 - INFO -   Corners: 72 samples
+2025-11-19 11:10:54,518 - INFO -   Edges: 72 samples
+2025-11-19 11:10:54,518 - INFO -   Centering: 10 samples
+2025-11-19 11:10:54,518 - INFO - 
+Processing batch 2/7
+2025-11-19 11:10:55,360 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:10:55,361 - INFO - Extracting metadata for: N2063025
+2025-11-19 11:11:04,637 - INFO - Parsing category scores...
+2025-11-19 11:11:04,638 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:11:04,638 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:11:04,638 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:11:04,638 - INFO -   Front: 50L/50R 60T/40B
+2025-11-19 11:11:04,638 - INFO -   Back: 48L/52R 55T/45B
+2025-11-19 11:11:04,638 - INFO - 
+Dimensions: 3.464" x 2.474"
+2025-11-19 11:11:04,638 - INFO - Grade: NEAR MINT
+2025-11-19 11:11:04,638 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:11:04,638 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:11:04,638 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:11:04,638 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:11:04,638 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:11:04,638 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:11:04,638 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:11:04,638 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:11:04,638 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  10%|█         | 1/10 [00:40<06:07, 40.78s/it]2025-11-19 11:11:36,139 - INFO - Extracting metadata for: E9906800
+2025-11-19 11:11:41,774 - INFO - Parsing category scores...
+2025-11-19 11:11:41,774 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:11:41,774 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:11:41,774 - INFO -   TAG Score: 935/1000
+2025-11-19 11:11:41,774 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:11:41,774 - INFO -   Front: 51L/49R 43T/57B
+2025-11-19 11:11:41,774 - INFO -   Back: 47L/53R 46T/54B
+2025-11-19 11:11:41,774 - INFO - 
+Dimensions: 3.462" x 2.472"
+2025-11-19 11:11:41,774 - INFO - Grade: MINT
+2025-11-19 11:11:41,774 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:11:41,774 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:11:41,774 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:11:41,774 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:11:41,774 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:11:41,774 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:11:41,774 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Front Right: Fray=1000, Fill=999
+2025-11-19 11:11:41,774 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:11:41,774 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:11:41,774 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  20%|██        | 2/10 [01:25<05:45, 43.24s/it]2025-11-19 11:12:21,096 - INFO - Extracting metadata for: C9897867
+2025-11-19 11:12:26,507 - INFO - Parsing category scores...
+2025-11-19 11:12:26,507 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:12:26,507 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:12:26,507 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:12:26,507 - INFO -   Front: 56L/44R 63T/37B
+2025-11-19 11:12:26,507 - INFO -   Back: 46L/54R 61T/39B
+2025-11-19 11:12:26,507 - INFO - 
+Dimensions: 3.462" x 2.47"
+2025-11-19 11:12:26,507 - INFO - Grade: NEAR MINT
+2025-11-19 11:12:26,507 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:12:26,507 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:12:26,507 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:12:26,507 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:12:26,507 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:12:26,507 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:12:26,507 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Front Bottom: Fray=999, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Front Left: Fray=999, Fill=999
+2025-11-19 11:12:26,507 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:12:26,507 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:12:26,508 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:12:26,508 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  30%|███       | 3/10 [01:59<04:32, 38.93s/it]2025-11-19 11:12:54,907 - INFO - Extracting metadata for: T8021674
+2025-11-19 11:13:00,441 - INFO - Parsing category scores...
+2025-11-19 11:13:00,441 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:13:00,441 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:13:00,441 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:13:00,441 - INFO -   Front: 57L/43R 57T/43B
+2025-11-19 11:13:00,441 - INFO -   Back: 42L/58R 56T/44B
+2025-11-19 11:13:00,441 - INFO - 
+Dimensions: 3.464" x 2.472"
+2025-11-19 11:13:00,441 - INFO - Grade: MINT
+2025-11-19 11:13:00,441 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:13:00,441 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:13:00,441 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:13:00,441 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:13:00,441 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:13:00,441 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:13:00,441 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:13:00,441 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:13:00,441 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:13:00,441 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:13:00,441 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:13:00,442 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:13:00,442 - INFO -   Front Bottom: Fray=997, Fill=992
+2025-11-19 11:13:00,442 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:13:00,442 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:13:00,442 - INFO -   Back Right: Fray=999, Fill=1000
+2025-11-19 11:13:00,442 - INFO -   Back Bottom: Fray=997, Fill=992
+2025-11-19 11:13:00,442 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  40%|████      | 4/10 [02:31<03:36, 36.06s/it]2025-11-19 11:13:26,557 - INFO - Extracting metadata for: X1141625
+2025-11-19 11:13:32,161 - INFO - Parsing category scores...
+2025-11-19 11:13:32,161 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:13:32,162 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:13:32,162 - INFO -   TAG Score: 937/1000
+2025-11-19 11:13:32,162 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:13:32,162 - INFO -   Front: 57L/43R 54T/46B
+2025-11-19 11:13:32,162 - INFO -   Back: 44L/56R 53T/47B
+2025-11-19 11:13:32,162 - INFO - 
+Dimensions: 3.461" x 2.473"
+2025-11-19 11:13:32,162 - INFO - Grade: MINT
+2025-11-19 11:13:32,162 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:13:32,162 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:13:32,162 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:13:32,162 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:13:32,162 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:13:32,162 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:13:32,162 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Front Right: Fray=999, Fill=997
+2025-11-19 11:13:32,162 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:13:32,162 - INFO -   Back Left: Fray=999, Fill=999
+Scraping cards:  50%|█████     | 5/10 [03:01<02:50, 34.14s/it]2025-11-19 11:13:57,307 - INFO - Extracting metadata for: H6726819
+2025-11-19 11:14:02,740 - INFO - Parsing category scores...
+2025-11-19 11:14:02,740 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:14:02,741 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:14:02,741 - INFO -   TAG Score: 904/1000
+2025-11-19 11:14:02,741 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:14:02,741 - INFO -   Front: 54L/46R 50T/50B
+2025-11-19 11:14:02,741 - INFO -   Back: 44L/56R 51T/49B
+2025-11-19 11:14:02,741 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:14:02,741 - INFO - Grade: MINT
+2025-11-19 11:14:02,741 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:14:02,741 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:14:02,741 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:14:02,741 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:14:02,741 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:14:02,741 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:14:02,741 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:14:02,741 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:14:02,741 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  60%|██████    | 6/10 [03:30<02:08, 32.18s/it]2025-11-19 11:14:25,684 - INFO - Extracting metadata for: E8163336
+2025-11-19 11:14:31,179 - INFO - Parsing category scores...
+2025-11-19 11:14:31,179 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:14:31,179 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:14:31,179 - INFO -   TAG Score: 920/1000
+2025-11-19 11:14:31,179 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:14:31,179 - INFO -   Front: 49L/51R 46T/54B
+2025-11-19 11:14:31,179 - INFO -   Back: 47L/53R 48T/52B
+2025-11-19 11:14:31,179 - INFO - 
+Dimensions: 3.458" x 2.472"
+2025-11-19 11:14:31,179 - INFO - Grade: MINT
+2025-11-19 11:14:31,179 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:14:31,179 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:14:31,179 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:14:31,179 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:14:31,179 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:14:31,179 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:14:31,179 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Front Right: Fray=998, Fill=992
+2025-11-19 11:14:31,179 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:14:31,179 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:14:31,179 - INFO -   Back Left: Fray=1000, Fill=994
+Scraping cards:  70%|███████   | 7/10 [03:59<01:33, 31.05s/it]2025-11-19 11:14:54,395 - INFO - Extracting metadata for: H5118526
+2025-11-19 11:14:59,769 - INFO - Parsing category scores...
+2025-11-19 11:14:59,769 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:14:59,769 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:14:59,769 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:14:59,769 - INFO -   Front: 52L/48R 49T/51B
+2025-11-19 11:14:59,769 - INFO -   Back: 48L/52R 49T/51B
+2025-11-19 11:14:59,769 - INFO - 
+Dimensions: 3.467" x 2.475"
+2025-11-19 11:14:59,769 - INFO - Grade: GEM MINT
+2025-11-19 11:14:59,769 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:14:59,769 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:14:59,769 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:14:59,769 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:14:59,769 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:14:59,769 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:14:59,769 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:14:59,769 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [04:14<00:52, 26.02s/it]2025-11-19 11:15:09,647 - INFO - Extracting metadata for: U7690871
+2025-11-19 11:15:15,127 - INFO - Parsing category scores...
+2025-11-19 11:15:15,127 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:15:15,127 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:15:15,127 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:15:15,127 - INFO -   Front: 49L/51R 46T/54B
+2025-11-19 11:15:15,127 - INFO -   Back: 50L/50R 49T/51B
+2025-11-19 11:15:15,127 - INFO - 
+Dimensions: 3.459" x 2.473"
+2025-11-19 11:15:15,127 - INFO - Grade: GEM MINT
+2025-11-19 11:15:15,127 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:15:15,127 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:15:15,127 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:15:15,127 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:15:15,127 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:15:15,127 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:15:15,127 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Front Right: Fray=999, Fill=988
+2025-11-19 11:15:15,127 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:15:15,127 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:15:15,127 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:15:15,128 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:15:15,128 - INFO -   Back Left: Fray=999, Fill=992
+Scraping cards:  90%|█████████ | 9/10 [04:44<00:27, 27.20s/it]2025-11-19 11:15:39,432 - INFO - Extracting metadata for: V2786321
+2025-11-19 11:15:44,902 - INFO - Parsing category scores...
+2025-11-19 11:15:44,902 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:15:44,902 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:15:44,902 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:15:44,902 - INFO -   Front: 48L/52R 46T/54B
+2025-11-19 11:15:44,902 - INFO -   Back: 54L/46R 48T/52B
+2025-11-19 11:15:44,902 - INFO - 
+Dimensions: 3.461" x 2.477"
+2025-11-19 11:15:44,902 - INFO - Grade: GEM MINT
+2025-11-19 11:15:44,902 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:15:44,902 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:15:44,902 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:15:44,902 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:15:44,902 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:15:44,902 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:15:44,902 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Front Right: Fray=998, Fill=990
+2025-11-19 11:15:44,902 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Front Left: Fray=1000, Fill=992
+2025-11-19 11:15:44,902 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Back Right: Fray=1000, Fill=999
+2025-11-19 11:15:44,902 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:15:44,902 - INFO -   Back Left: Fray=999, Fill=993
+Scraping cards: 100%|██████████| 10/10 [05:14<00:00, 28.29s/it]Scraping cards: 100%|██████████| 10/10 [05:14<00:00, 31.48s/it]
+2025-11-19 11:16:10,415 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:16:11,636 - INFO - Corner batch loss: 3.7199
+2025-11-19 11:16:12,824 - INFO - Edge batch loss: 4.3847
+2025-11-19 11:16:13,079 - INFO - Centering batch loss: 154.6507
+2025-11-19 11:16:13,079 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:16:13,079 - INFO -   Corners: 80 samples
+2025-11-19 11:16:13,079 - INFO -   Edges: 80 samples
+2025-11-19 11:16:13,079 - INFO -   Centering: 10 samples
+2025-11-19 11:16:13,079 - INFO - 
+Processing batch 3/7
+2025-11-19 11:16:13,953 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:16:13,953 - INFO - Extracting metadata for: H4513649
+2025-11-19 11:16:23,167 - INFO - Parsing category scores...
+2025-11-19 11:16:23,167 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:16:23,167 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:16:23,167 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:16:23,167 - INFO -   Front: 46L/54R 46T/54B
+2025-11-19 11:16:23,167 - INFO -   Back: 46L/54R 48T/52B
+2025-11-19 11:16:23,167 - INFO - 
+Dimensions: 3.462" x 2.472"
+2025-11-19 11:16:23,167 - INFO - Grade: MINT
+2025-11-19 11:16:23,167 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:16:23,167 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:16:23,167 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:16:23,167 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:16:23,167 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:16:23,167 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:16:23,167 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:16:23,167 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  10%|█         | 1/10 [00:47<07:04, 47.18s/it]2025-11-19 11:17:01,132 - INFO - Extracting metadata for: H5020212
+2025-11-19 11:17:06,665 - INFO - Parsing category scores...
+2025-11-19 11:17:06,665 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:17:06,665 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:17:06,665 - INFO -   TAG Score: 954/1000
+2025-11-19 11:17:06,665 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:17:06,665 - INFO -   Front: 52L/48R 45T/55B
+2025-11-19 11:17:06,665 - INFO -   Back: 47L/53R 48T/52B
+2025-11-19 11:17:06,665 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:17:06,666 - INFO - Grade: GEM MINT
+2025-11-19 11:17:06,666 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:17:06,666 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:17:06,666 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:17:06,666 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:17:06,666 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:17:06,666 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:17:06,666 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Front Right: Fray=999, Fill=999
+2025-11-19 11:17:06,666 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:17:06,666 - INFO -   Back Left: Fray=998, Fill=1000
+Scraping cards:  20%|██        | 2/10 [01:11<04:28, 33.57s/it]2025-11-19 11:17:25,183 - INFO - Extracting metadata for: K8963297
+2025-11-19 11:17:30,594 - INFO - Parsing category scores...
+2025-11-19 11:17:30,594 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:17:30,594 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:17:30,594 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:17:30,594 - INFO -   Front: 42L/58R 43T/57B
+2025-11-19 11:17:30,594 - INFO -   Back: 56L/44R 44T/56B
+2025-11-19 11:17:30,594 - INFO - 
+Dimensions: 3.463" x 2.474"
+2025-11-19 11:17:30,594 - INFO - Grade: MINT
+2025-11-19 11:17:30,594 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:17:30,594 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:17:30,594 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:17:30,595 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:17:30,595 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:17:30,595 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:17:30,595 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:17:30,595 - INFO -   Front Right: Fray=1000, Fill=997
+2025-11-19 11:17:30,595 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:17:30,595 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:17:30,595 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  30%|███       | 3/10 [01:49<04:11, 35.88s/it]2025-11-19 11:18:03,809 - INFO - Extracting metadata for: R6255730
+2025-11-19 11:18:09,459 - INFO - Parsing category scores...
+2025-11-19 11:18:09,459 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:18:09,459 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:18:09,459 - INFO -   TAG Score: 957/1000
+2025-11-19 11:18:09,459 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:18:09,460 - INFO -   Front: 47L/53R 45T/55B
+2025-11-19 11:18:09,460 - INFO -   Back: 47L/53R 48T/52B
+2025-11-19 11:18:09,460 - INFO - 
+Dimensions: 3.458" x 2.476"
+2025-11-19 11:18:09,460 - INFO - Grade: GEM MINT
+2025-11-19 11:18:09,460 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:18:09,460 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:18:09,460 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:18:09,460 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:18:09,460 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:18:09,460 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:18:09,460 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Front Right: Fray=998, Fill=990
+2025-11-19 11:18:09,460 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:18:09,460 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:18:09,460 - INFO -   Back Left: Fray=999, Fill=990
+Scraping cards:  40%|████      | 4/10 [02:28<03:42, 37.02s/it]2025-11-19 11:18:42,580 - INFO - Extracting metadata for: R8988863
+2025-11-19 11:18:48,064 - INFO - Parsing category scores...
+2025-11-19 11:18:48,064 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:18:48,064 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:18:48,064 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:18:48,064 - INFO -   Front: 43L/57R 43T/57B
+2025-11-19 11:18:48,064 - INFO -   Back: 56L/44R 46T/54B
+2025-11-19 11:18:48,064 - INFO - 
+Dimensions: 3.46" x 2.476"
+2025-11-19 11:18:48,064 - INFO - Grade: MINT
+2025-11-19 11:18:48,064 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:18:48,064 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:18:48,064 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:18:48,064 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:18:48,064 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:18:48,064 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:18:48,064 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:18:48,064 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:18:48,064 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:18:48,064 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:18:48,064 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:18:48,064 - INFO -   Front Right: Fray=998, Fill=991
+2025-11-19 11:18:48,065 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:18:48,065 - INFO -   Front Left: Fray=1000, Fill=998
+2025-11-19 11:18:48,065 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:18:48,065 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:18:48,065 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:18:48,065 - INFO -   Back Left: Fray=999, Fill=992
+Scraping cards:  50%|█████     | 5/10 [02:58<02:52, 34.45s/it]2025-11-19 11:19:12,481 - INFO - Extracting metadata for: N4471557
+2025-11-19 11:19:17,926 - INFO - Parsing category scores...
+2025-11-19 11:19:17,926 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:19:17,926 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:19:17,926 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:19:17,926 - INFO -   Front: 47L/53R 43T/57B
+2025-11-19 11:19:17,926 - INFO -   Back: 50L/50R 45T/55B
+2025-11-19 11:19:17,926 - INFO - 
+Dimensions: 3.461" x 2.473"
+2025-11-19 11:19:17,926 - INFO - Grade: MINT
+2025-11-19 11:19:17,926 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:19:17,926 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:19:17,926 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:19:17,926 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:19:17,926 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:19:17,926 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:19:17,926 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Front Right: Fray=999, Fill=992
+2025-11-19 11:19:17,926 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:19:17,926 - INFO -   Back Left: Fray=999, Fill=998
+Scraping cards:  60%|██████    | 6/10 [03:22<02:03, 30.78s/it]2025-11-19 11:19:36,142 - INFO - Extracting metadata for: U3793353
+2025-11-19 11:19:41,561 - INFO - Parsing category scores...
+2025-11-19 11:19:41,561 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:19:41,561 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:19:41,562 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:19:41,562 - INFO -   Front: 46L/54R 51T/49B
+2025-11-19 11:19:41,562 - INFO -   Back: 55L/45R 53T/47B
+2025-11-19 11:19:41,562 - INFO - 
+Dimensions: 3.461" x 2.472"
+2025-11-19 11:19:41,562 - INFO - Grade: MINT
+2025-11-19 11:19:41,562 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:19:41,562 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:19:41,562 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:19:41,562 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:19:41,562 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:19:41,562 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:19:41,562 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:19:41,562 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:19:41,562 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:19:41,562 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  70%|███████   | 7/10 [03:53<01:32, 30.86s/it]2025-11-19 11:20:07,165 - INFO - Extracting metadata for: H2851725
+2025-11-19 11:21:36,928 - INFO - Parsing category scores...
+2025-11-19 11:21:36,928 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:21:36,928 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:21:36,928 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:21:36,928 - INFO -   Front: 55L/45R 53T/47B
+2025-11-19 11:21:36,928 - INFO -   Back: 47L/53R 53T/47B
+2025-11-19 11:21:36,928 - INFO - 
+Dimensions: 3.461" x 2.471"
+2025-11-19 11:21:36,928 - INFO - Grade: GEM MINT
+2025-11-19 11:21:36,928 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:21:36,928 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:21:36,928 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:21:36,928 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:21:36,928 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:21:36,928 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:21:36,928 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:21:36,928 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [05:27<01:41, 50.94s/it]2025-11-19 11:21:41,089 - INFO - Extracting metadata for: W7149540
+2025-11-19 11:21:46,530 - INFO - Parsing category scores...
+2025-11-19 11:21:46,530 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:21:46,530 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:21:46,530 - INFO -   TAG Score: 943/1000
+2025-11-19 11:21:46,530 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:21:46,530 - INFO -   Front: 44L/56R 47T/53B
+2025-11-19 11:21:46,530 - INFO -   Back: 57L/43R 48T/52B
+2025-11-19 11:21:46,530 - INFO - 
+Dimensions: 3.463" x 2.472"
+2025-11-19 11:21:46,530 - INFO - Grade: MINT
+2025-11-19 11:21:46,530 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:21:46,530 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:21:46,530 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:21:46,530 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:21:46,530 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:21:46,530 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:21:46,530 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Front Right: Fray=999, Fill=999
+2025-11-19 11:21:46,530 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:21:46,530 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:21:46,531 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:21:46,531 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  90%|█████████ | 9/10 [05:54<00:43, 43.45s/it]2025-11-19 11:22:08,076 - INFO - Extracting metadata for: U3838096
+2025-11-19 11:22:13,460 - INFO - Parsing category scores...
+2025-11-19 11:22:13,460 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:22:13,460 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:22:13,460 - INFO -   TAG Score: 955/1000
+2025-11-19 11:22:13,460 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:22:13,460 - INFO -   Front: 45L/55R 47T/53B
+2025-11-19 11:22:13,460 - INFO -   Back: 53L/47R 48T/52B
+2025-11-19 11:22:13,460 - INFO - 
+Dimensions: 3.461" x 2.474"
+2025-11-19 11:22:13,460 - INFO - Grade: GEM MINT
+2025-11-19 11:22:13,460 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:22:13,460 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:22:13,460 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:22:13,460 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:22:13,460 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:22:13,460 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:22:13,460 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:22:13,460 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:22:13,460 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:22:13,460 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:22:13,460 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:22:13,460 - INFO -   Front Right: Fray=1000, Fill=998
+2025-11-19 11:22:13,461 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:22:13,461 - INFO -   Front Left: Fray=1000, Fill=996
+2025-11-19 11:22:13,461 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:22:13,461 - INFO -   Back Right: Fray=1000, Fill=998
+2025-11-19 11:22:13,461 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:22:13,461 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards: 100%|██████████| 10/10 [06:23<00:00, 39.15s/it]Scraping cards: 100%|██████████| 10/10 [06:23<00:00, 38.36s/it]
+2025-11-19 11:22:37,950 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:22:39,278 - INFO - Corner batch loss: 3.5556
+2025-11-19 11:22:40,425 - INFO - Edge batch loss: 3.0470
+2025-11-19 11:22:40,684 - INFO - Centering batch loss: 84.8534
+2025-11-19 11:22:40,684 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:22:40,684 - INFO -   Corners: 80 samples
+2025-11-19 11:22:40,684 - INFO -   Edges: 80 samples
+2025-11-19 11:22:40,684 - INFO -   Centering: 10 samples
+2025-11-19 11:22:40,685 - INFO - 
+Processing batch 4/7
+2025-11-19 11:22:41,593 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:22:41,593 - INFO - Extracting metadata for: Q3772018
+2025-11-19 11:22:47,918 - INFO - Parsing category scores...
+2025-11-19 11:22:47,918 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:22:47,918 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:22:47,918 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:22:47,918 - INFO -   Front: 40L/60R 44T/56B
+2025-11-19 11:22:47,918 - INFO -   Back: 58L/42R 45T/55B
+2025-11-19 11:22:47,918 - INFO - 
+Dimensions: 3.465" x 2.474"
+2025-11-19 11:22:47,918 - INFO - Grade: MINT
+2025-11-19 11:22:47,918 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:22:47,918 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:22:47,918 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:22:47,918 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:22:47,918 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:22:47,919 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:22:47,919 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Front Right: Fray=999, Fill=998
+2025-11-19 11:22:47,919 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:22:47,919 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  10%|█         | 1/10 [00:30<04:30, 30.06s/it]2025-11-19 11:23:11,651 - INFO - Extracting metadata for: C2407409
+2025-11-19 11:23:17,415 - INFO - Parsing category scores...
+2025-11-19 11:23:17,415 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:23:17,415 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:23:17,415 - INFO -   TAG Score: 943/1000
+2025-11-19 11:23:17,415 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:23:17,415 - INFO -   Front: 44L/56R 44T/56B
+2025-11-19 11:23:17,415 - INFO -   Back: 55L/45R 47T/53B
+2025-11-19 11:23:17,415 - INFO - 
+Dimensions: 3.462" x 2.47"
+2025-11-19 11:23:17,415 - INFO - Grade: MINT
+2025-11-19 11:23:17,415 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:23:17,415 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:23:17,415 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:23:17,416 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:23:17,416 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:23:17,416 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:23:17,416 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Front Right: Fray=999, Fill=999
+2025-11-19 11:23:17,416 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:23:17,416 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  20%|██        | 2/10 [01:03<04:17, 32.14s/it]2025-11-19 11:23:45,246 - INFO - Extracting metadata for: G5088545
+2025-11-19 11:23:50,760 - INFO - Parsing category scores...
+2025-11-19 11:23:50,761 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:23:50,761 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:23:50,761 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:23:50,761 - INFO -   Front: 38L/62R 44T/56B
+2025-11-19 11:23:50,761 - INFO -   Back: 58L/42R 46T/54B
+2025-11-19 11:23:50,761 - INFO - 
+Dimensions: 3.46" x 2.475"
+2025-11-19 11:23:50,761 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:23:50,761 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:23:50,761 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:23:50,761 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:23:50,761 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:23:50,761 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:23:50,761 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Front Right: Fray=999, Fill=992
+2025-11-19 11:23:50,761 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Front Left: Fray=1000, Fill=998
+2025-11-19 11:23:50,761 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:23:50,761 - INFO -   Back Left: Fray=999, Fill=993
+Scraping cards:  30%|███       | 3/10 [01:34<03:40, 31.46s/it]2025-11-19 11:24:15,892 - INFO - Extracting metadata for: J9094596
+2025-11-19 11:24:21,351 - INFO - Parsing category scores...
+2025-11-19 11:24:21,351 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:24:21,351 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:24:21,351 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:24:21,351 - INFO -   Front: 47L/53R 45T/55B
+2025-11-19 11:24:21,351 - INFO -   Back: 47L/53R 48T/52B
+2025-11-19 11:24:21,351 - INFO - 
+Dimensions: 3.459" x 2.473"
+2025-11-19 11:24:21,351 - INFO - Grade: GEM MINT
+2025-11-19 11:24:21,351 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:24:21,351 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:24:21,351 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:24:21,351 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:24:21,351 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:24:21,351 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:24:21,351 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Front Right: Fray=1000, Fill=998
+2025-11-19 11:24:21,351 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Front Left: Fray=1000, Fill=995
+2025-11-19 11:24:21,351 - INFO -   Back Top: Fray=1000, Fill=999
+2025-11-19 11:24:21,351 - INFO -   Back Right: Fray=1000, Fill=998
+2025-11-19 11:24:21,351 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:24:21,351 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  40%|████      | 4/10 [01:48<02:27, 24.66s/it]2025-11-19 11:24:30,142 - INFO - Extracting metadata for: M7804317
+2025-11-19 11:24:35,590 - INFO - Parsing category scores...
+2025-11-19 11:24:35,590 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:24:35,590 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:24:35,590 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:24:35,590 - INFO -   Front: 41L/59R 42T/58B
+2025-11-19 11:24:35,590 - INFO -   Back: 60L/40R 43T/57B
+2025-11-19 11:24:35,590 - INFO - 
+Dimensions: 3.463" x 2.474"
+2025-11-19 11:24:35,590 - INFO - Grade: MINT
+2025-11-19 11:24:35,590 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:24:35,590 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:24:35,590 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:24:35,590 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:24:35,590 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:24:35,590 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:24:35,590 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:24:35,590 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:24:35,590 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:24:35,590 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:24:35,590 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:24:35,590 - INFO -   Front Right: Fray=999, Fill=999
+2025-11-19 11:24:35,590 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:24:35,590 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:24:35,590 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:24:35,591 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:24:35,591 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:24:35,591 - INFO -   Back Left: Fray=998, Fill=1000
+Scraping cards:  50%|█████     | 5/10 [02:17<02:11, 26.30s/it]2025-11-19 11:24:59,353 - INFO - Extracting metadata for: S8663952
+2025-11-19 11:25:04,873 - INFO - Parsing category scores...
+2025-11-19 11:25:04,873 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:25:04,874 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:25:04,874 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:25:04,874 - INFO -   Front: 44L/56R 47T/53B
+2025-11-19 11:25:04,874 - INFO -   Back: 58L/42R 46T/54B
+2025-11-19 11:25:04,874 - INFO - 
+Dimensions: 3.463" x 2.472"
+2025-11-19 11:25:04,874 - INFO - Grade: MINT
+2025-11-19 11:25:04,874 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:25:04,874 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:25:04,874 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:25:04,874 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:25:04,874 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:25:04,874 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:25:04,874 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:25:04,874 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:04,874 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  60%|██████    | 6/10 [02:32<01:28, 22.21s/it]2025-11-19 11:25:13,605 - INFO - Extracting metadata for: C3565664
+2025-11-19 11:25:19,031 - INFO - Parsing category scores...
+2025-11-19 11:25:19,031 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:25:19,031 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:25:19,031 - INFO -   TAG Score: 988/1000
+2025-11-19 11:25:19,031 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:25:19,031 - INFO -   Front: 51L/49R 50T/50B
+2025-11-19 11:25:19,031 - INFO -   Back: 47L/53R 49T/51B
+2025-11-19 11:25:19,031 - INFO - 
+Dimensions: 3.464" x 2.472"
+2025-11-19 11:25:19,031 - INFO - Grade: GEM MINT
+2025-11-19 11:25:19,031 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:25:19,031 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:25:19,031 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:25:19,031 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:25:19,032 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:25:19,032 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:25:19,032 - INFO -   Front Top: Fray=1000, Fill=997
+2025-11-19 11:25:19,032 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:19,032 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  70%|███████   | 7/10 [02:45<00:57, 19.26s/it]2025-11-19 11:25:26,785 - INFO - Extracting metadata for: M7779518
+2025-11-19 11:25:32,206 - INFO - Parsing category scores...
+2025-11-19 11:25:32,206 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:25:32,206 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:25:32,206 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:25:32,206 - INFO -   Front: 50L/50R 56T/44B
+2025-11-19 11:25:32,206 - INFO -   Back: 49L/51R 54T/46B
+2025-11-19 11:25:32,206 - INFO - 
+Dimensions: 3.466" x 2.475"
+2025-11-19 11:25:32,206 - INFO - Grade: MINT
+2025-11-19 11:25:32,206 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:25:32,206 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:25:32,206 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:25:32,206 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:25:32,207 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:25:32,207 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:25:32,207 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:25:32,207 - INFO -   Front Right: Fray=999, Fill=999
+2025-11-19 11:25:32,207 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:25:32,207 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:32,207 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [02:59<00:35, 17.59s/it]2025-11-19 11:25:40,817 - INFO - Extracting metadata for: N2607372
+2025-11-19 11:25:46,197 - INFO - Parsing category scores...
+2025-11-19 11:25:46,197 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:25:46,197 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:25:46,197 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:25:46,197 - INFO -   Front: 46L/54R 44T/56B
+2025-11-19 11:25:46,197 - INFO -   Back: 55L/45R 46T/54B
+2025-11-19 11:25:46,197 - INFO - 
+Dimensions: 3.461" x 2.474"
+2025-11-19 11:25:46,197 - INFO - Grade: MINT
+2025-11-19 11:25:46,197 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:25:46,197 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:25:46,197 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:25:46,198 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:25:46,198 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:25:46,198 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:25:46,198 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:25:46,198 - INFO -   Front Right: Fray=998, Fill=986
+2025-11-19 11:25:46,198 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Front Left: Fray=1000, Fill=996
+2025-11-19 11:25:46,198 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Back Right: Fray=1000, Fill=999
+2025-11-19 11:25:46,198 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:25:46,198 - INFO -   Back Left: Fray=999, Fill=988
+Scraping cards:  90%|█████████ | 9/10 [03:29<00:21, 21.59s/it]2025-11-19 11:26:11,204 - INFO - Extracting metadata for: P5523643
+2025-11-19 11:26:16,734 - INFO - Parsing category scores...
+2025-11-19 11:26:16,734 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:26:16,734 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:26:16,734 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:26:16,734 - INFO -   Front: 53L/47R 45T/55B
+2025-11-19 11:26:16,734 - INFO -   Back: 47L/53R 48T/52B
+2025-11-19 11:26:16,734 - INFO - 
+Dimensions: 3.461" x 2.474"
+2025-11-19 11:26:16,734 - INFO - Grade: GEM MINT
+2025-11-19 11:26:16,734 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:26:16,734 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:26:16,734 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:26:16,734 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:26:16,734 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:26:16,734 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:26:16,734 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:26:16,734 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:26:16,734 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:26:16,734 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:26:16,734 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:26:16,734 - INFO -   Front Right: Fray=998, Fill=986
+2025-11-19 11:26:16,734 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:26:16,735 - INFO -   Front Left: Fray=1000, Fill=998
+2025-11-19 11:26:16,735 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:26:16,735 - INFO -   Back Right: Fray=1000, Fill=999
+2025-11-19 11:26:16,735 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:26:16,735 - INFO -   Back Left: Fray=999, Fill=991
+Scraping cards: 100%|██████████| 10/10 [03:52<00:00, 21.85s/it]Scraping cards: 100%|██████████| 10/10 [03:52<00:00, 23.20s/it]
+2025-11-19 11:26:33,878 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:26:35,080 - INFO - Corner batch loss: 4.2483
+2025-11-19 11:26:36,221 - INFO - Edge batch loss: 5.4562
+2025-11-19 11:26:36,527 - INFO - Centering batch loss: 100.2237
+2025-11-19 11:26:36,527 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:26:36,527 - INFO -   Corners: 80 samples
+2025-11-19 11:26:36,527 - INFO -   Edges: 80 samples
+2025-11-19 11:26:36,527 - INFO -   Centering: 10 samples
+2025-11-19 11:26:36,527 - INFO - 
+Processing batch 5/7
+2025-11-19 11:26:37,419 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:26:37,419 - INFO - Extracting metadata for: J1976272
+2025-11-19 11:26:43,860 - INFO - Parsing category scores...
+2025-11-19 11:26:43,860 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:26:43,860 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:26:43,860 - INFO -   TAG Score: 984/1000
+2025-11-19 11:26:43,860 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:26:43,860 - INFO -   Front: 48L/52R 50T/50B
+2025-11-19 11:26:43,860 - INFO -   Back: 52L/48R 50T/50B
+2025-11-19 11:26:43,860 - INFO - 
+Dimensions: 3.463" x 2.472"
+2025-11-19 11:26:43,860 - INFO - Grade: GEM MINT
+2025-11-19 11:26:43,860 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:26:43,861 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:26:43,861 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:26:43,861 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:26:43,861 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:26:43,861 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:26:43,861 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:26:43,861 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  10%|█         | 1/10 [00:18<02:47, 18.66s/it]2025-11-19 11:26:56,082 - INFO - Extracting metadata for: L3668405
+2025-11-19 11:27:01,494 - INFO - Parsing category scores...
+2025-11-19 11:27:01,494 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:27:01,495 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:27:01,495 - INFO -   TAG Score: 972/1000
+2025-11-19 11:27:01,495 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:27:01,495 - INFO -   Front: 47L/53R 52T/48B
+2025-11-19 11:27:01,495 - INFO -   Back: 50L/50R 51T/49B
+2025-11-19 11:27:01,495 - INFO - 
+Dimensions: 3.464" x 2.472"
+2025-11-19 11:27:01,495 - INFO - Grade: GEM MINT
+2025-11-19 11:27:01,495 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:27:01,495 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:27:01,495 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:27:01,495 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:27:01,495 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:27:01,495 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:27:01,495 - INFO -   Front Top: Fray=1000, Fill=998
+2025-11-19 11:27:01,495 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:27:01,495 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:27:01,495 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  20%|██        | 2/10 [00:45<03:08, 23.58s/it]2025-11-19 11:27:23,096 - INFO - Extracting metadata for: T6768956
+2025-11-19 11:27:28,445 - INFO - Parsing category scores...
+2025-11-19 11:27:28,445 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:27:28,445 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:27:28,445 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:27:28,445 - INFO -   Front: 44L/56R 51T/49B
+2025-11-19 11:27:28,445 - INFO -   Back: 53L/47R 52T/48B
+2025-11-19 11:27:28,445 - INFO - 
+Dimensions: 3.465" x 2.474"
+2025-11-19 11:27:28,445 - INFO - Grade: MINT
+2025-11-19 11:27:28,445 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:27:28,445 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:27:28,445 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:27:28,445 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:27:28,445 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:27:28,445 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:27:28,445 - INFO -   Front Top: Fray=1000, Fill=998
+2025-11-19 11:27:28,445 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Back Top: Fray=1000, Fill=996
+2025-11-19 11:27:28,445 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:27:28,445 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:27:28,446 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  30%|███       | 3/10 [01:24<03:34, 30.71s/it]2025-11-19 11:28:02,286 - INFO - Extracting metadata for: W4901741
+2025-11-19 11:28:07,781 - INFO - Parsing category scores...
+2025-11-19 11:28:07,781 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:28:07,781 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:28:07,781 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:28:07,781 - INFO -   Front: 49L/51R 44T/56B
+2025-11-19 11:28:07,781 - INFO -   Back: 49L/51R 47T/53B
+2025-11-19 11:28:07,781 - INFO - 
+Dimensions: 3.46" x 2.469"
+2025-11-19 11:28:07,781 - INFO - Grade: MINT
+2025-11-19 11:28:07,781 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:28:07,781 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:28:07,781 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:28:07,781 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:28:07,781 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:28:07,781 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:28:07,781 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:28:07,781 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:28:07,781 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:28:07,781 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:28:07,781 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:28:07,781 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:28:07,782 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:28:07,782 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:28:07,782 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:28:07,782 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:28:07,782 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:28:07,782 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  40%|████      | 4/10 [01:58<03:11, 31.84s/it]2025-11-19 11:28:35,878 - INFO - Extracting metadata for: R6332355
+2025-11-19 11:28:41,278 - INFO - Parsing category scores...
+2025-11-19 11:28:41,278 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:28:41,278 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:28:41,278 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:28:41,278 - INFO -   Front: 46L/54R 45T/55B
+2025-11-19 11:28:41,278 - INFO -   Back: 54L/46R 47T/53B
+2025-11-19 11:28:41,278 - INFO - 
+Dimensions: 3.46" x 2.475"
+2025-11-19 11:28:41,278 - INFO - Grade: GEM MINT
+2025-11-19 11:28:41,278 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:28:41,278 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:28:41,278 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:28:41,278 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:28:41,278 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:28:41,279 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:28:41,279 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Front Right: Fray=997, Fill=994
+2025-11-19 11:28:41,279 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Front Left: Fray=999, Fill=999
+2025-11-19 11:28:41,279 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:28:41,279 - INFO -   Back Left: Fray=997, Fill=994
+Scraping cards:  50%|█████     | 5/10 [02:30<02:38, 31.78s/it]2025-11-19 11:29:07,532 - INFO - Extracting metadata for: E2951594
+2025-11-19 11:29:12,887 - INFO - Parsing category scores...
+2025-11-19 11:29:12,887 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:29:12,887 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:29:12,887 - INFO -   TAG Score: 955/1000
+2025-11-19 11:29:12,887 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:29:12,887 - INFO -   Front: 49L/51R 45T/55B
+2025-11-19 11:29:12,887 - INFO -   Back: 50L/50R 48T/52B
+2025-11-19 11:29:12,887 - INFO - 
+Dimensions: 3.46" x 2.475"
+2025-11-19 11:29:12,887 - INFO - Grade: GEM MINT
+2025-11-19 11:29:12,887 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:29:12,887 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:29:12,888 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:29:12,888 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:29:12,888 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:29:12,888 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:29:12,888 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:29:12,888 - INFO -   Front Right: Fray=998, Fill=993
+2025-11-19 11:29:12,888 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Front Left: Fray=999, Fill=998
+2025-11-19 11:29:12,888 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:29:12,888 - INFO -   Back Left: Fray=997, Fill=995
+Scraping cards:  60%|██████    | 6/10 [02:43<01:42, 25.58s/it]2025-11-19 11:29:21,086 - INFO - Extracting metadata for: D3479543
+2025-11-19 11:29:26,528 - INFO - Parsing category scores...
+2025-11-19 11:29:26,528 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:29:26,528 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:29:26,528 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:29:26,528 - INFO -   Front: 50L/50R 51T/49B
+2025-11-19 11:29:26,528 - INFO -   Back: 48L/52R 52T/48B
+2025-11-19 11:29:26,528 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:29:26,529 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:29:26,529 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:29:26,529 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:29:26,529 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:29:26,529 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:29:26,529 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:29:26,529 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Front Bottom: Fray=1000, Fill=997
+2025-11-19 11:29:26,529 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:29:26,529 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:29:26,529 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  70%|███████   | 7/10 [03:18<01:25, 28.56s/it]2025-11-19 11:29:55,771 - INFO - Extracting metadata for: T5693658
+2025-11-19 11:30:01,219 - INFO - Parsing category scores...
+2025-11-19 11:30:01,219 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:30:01,219 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:30:01,219 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:30:01,219 - INFO -   Front: 50L/50R 50T/50B
+2025-11-19 11:30:01,219 - INFO -   Back: 47L/53R 50T/50B
+2025-11-19 11:30:01,219 - INFO - 
+Dimensions: 3.464" x 2.475"
+2025-11-19 11:30:01,219 - INFO - Grade: GEM MINT
+2025-11-19 11:30:01,219 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:30:01,219 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:30:01,219 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:30:01,219 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:30:01,219 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:30:01,219 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:30:01,219 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:30:01,219 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:30:01,219 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:30:01,219 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:30:01,220 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:30:01,220 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:30:01,220 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [03:32<00:48, 24.10s/it]2025-11-19 11:30:10,313 - INFO - Extracting metadata for: W2456957
+2025-11-19 11:30:15,769 - INFO - Parsing category scores...
+2025-11-19 11:30:15,769 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:30:15,769 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:30:15,769 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:30:15,769 - INFO -   Front: 50L/50R 41T/59B
+2025-11-19 11:30:15,769 - INFO -   Back: 45L/55R 43T/57B
+2025-11-19 11:30:15,769 - INFO - 
+Dimensions: 3.461" x 2.47"
+2025-11-19 11:30:15,769 - INFO - Grade: MINT
+2025-11-19 11:30:15,769 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:30:15,769 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:30:15,769 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:30:15,769 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:30:15,769 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:30:15,769 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:30:15,769 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:30:15,769 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:30:15,769 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:30:15,769 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  90%|█████████ | 9/10 [04:04<00:26, 26.46s/it]2025-11-19 11:30:41,986 - INFO - Extracting metadata for: Z5673368
+2025-11-19 11:30:47,481 - INFO - Parsing category scores...
+2025-11-19 11:30:47,481 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:30:47,481 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:30:47,481 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:30:47,481 - INFO -   Front: 44L/56R 50T/50B
+2025-11-19 11:30:47,481 - INFO -   Back: 53L/47R 51T/49B
+2025-11-19 11:30:47,481 - INFO - 
+Dimensions: 3.461" x 2.477"
+2025-11-19 11:30:47,481 - INFO - Grade: MINT
+2025-11-19 11:30:47,481 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:30:47,481 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:30:47,481 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:30:47,481 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:30:47,481 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:30:47,481 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:30:47,481 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Front Right: Fray=998, Fill=990
+2025-11-19 11:30:47,481 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Front Left: Fray=1000, Fill=998
+2025-11-19 11:30:47,481 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:30:47,481 - INFO -   Back Left: Fray=998, Fill=992
+Scraping cards: 100%|██████████| 10/10 [04:37<00:00, 28.61s/it]Scraping cards: 100%|██████████| 10/10 [04:37<00:00, 27.80s/it]
+2025-11-19 11:31:15,662 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:31:16,818 - INFO - Corner batch loss: 3.2410
+2025-11-19 11:31:17,911 - INFO - Edge batch loss: 2.4973
+2025-11-19 11:31:18,169 - INFO - Centering batch loss: 98.4297
+2025-11-19 11:31:18,170 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:31:18,170 - INFO -   Corners: 80 samples
+2025-11-19 11:31:18,170 - INFO -   Edges: 80 samples
+2025-11-19 11:31:18,170 - INFO -   Centering: 10 samples
+2025-11-19 11:31:18,170 - INFO - 
+Processing batch 6/7
+2025-11-19 11:31:19,052 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/10 [00:00<?, ?it/s]2025-11-19 11:31:19,053 - INFO - Extracting metadata for: V3838226
+2025-11-19 11:31:28,455 - INFO - Parsing category scores...
+2025-11-19 11:31:28,455 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:31:28,455 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:31:28,455 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:31:28,455 - INFO -   Front: 42L/58R 36T/64B
+2025-11-19 11:31:28,455 - INFO -   Back: 59L/41R 40T/60B
+2025-11-19 11:31:28,455 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:31:28,456 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:31:28,456 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:31:28,456 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:31:28,456 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:31:28,456 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:31:28,456 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:31:28,456 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:31:28,456 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:31:28,456 - INFO -   Back Bottom: Fray=1000, Fill=998
+2025-11-19 11:31:28,456 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  10%|█         | 1/10 [00:47<07:04, 47.13s/it]2025-11-19 11:32:06,183 - INFO - Extracting metadata for: T8345722
+2025-11-19 11:32:11,846 - INFO - Parsing category scores...
+2025-11-19 11:32:11,846 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:32:11,846 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:32:11,846 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:32:11,846 - INFO -   Front: 47L/53R 57T/43B
+2025-11-19 11:32:11,846 - INFO -   Back: 48L/52R 54T/46B
+2025-11-19 11:32:11,846 - INFO - 
+Dimensions: 3.457" x 2.471"
+2025-11-19 11:32:11,846 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:32:11,847 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:32:11,847 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:32:11,847 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:32:11,847 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:32:11,847 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:32:11,847 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:32:11,847 - INFO -   Front Right: Fray=998, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Front Bottom: Fray=997, Fill=992
+2025-11-19 11:32:11,847 - INFO -   Front Left: Fray=999, Fill=998
+2025-11-19 11:32:11,847 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:32:11,847 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  20%|██        | 2/10 [01:32<06:10, 46.36s/it]2025-11-19 11:32:51,998 - INFO - Extracting metadata for: V8759250
+2025-11-19 11:32:57,450 - INFO - Parsing category scores...
+2025-11-19 11:32:57,450 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:32:57,450 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:32:57,450 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:32:57,450 - INFO -   Front: 44L/56R 46T/54B
+2025-11-19 11:32:57,450 - INFO -   Back: 57L/43R 48T/52B
+2025-11-19 11:32:57,450 - INFO - 
+Dimensions: 3.46" x 2.472"
+2025-11-19 11:32:57,450 - INFO - Grade: MINT
+2025-11-19 11:32:57,450 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:32:57,450 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:32:57,450 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:32:57,450 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:32:57,450 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:32:57,450 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:32:57,450 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:32:57,450 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:32:57,450 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  30%|███       | 3/10 [01:51<03:56, 33.83s/it]2025-11-19 11:33:10,919 - INFO - Extracting metadata for: Z8950868
+2025-11-19 11:33:16,347 - INFO - Parsing category scores...
+2025-11-19 11:33:16,347 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:33:16,347 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:33:16,347 - INFO -   TAG Score: 975/1000
+2025-11-19 11:33:16,347 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:33:16,347 - INFO -   Front: 47L/53R 49T/51B
+2025-11-19 11:33:16,347 - INFO -   Back: 55L/45R 49T/51B
+2025-11-19 11:33:16,347 - INFO - 
+Dimensions: 3.462" x 2.472"
+2025-11-19 11:33:16,347 - INFO - Grade: GEM MINT
+2025-11-19 11:33:16,347 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:33:16,347 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:33:16,347 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:33:16,347 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:33:16,347 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:33:16,347 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:33:16,347 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:33:16,347 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:33:16,347 - INFO -   Back Bottom: Fray=1000, Fill=999
+2025-11-19 11:33:16,347 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  40%|████      | 4/10 [02:19<03:08, 31.45s/it]2025-11-19 11:33:38,722 - INFO - Extracting metadata for: C2450842
+2025-11-19 11:33:44,157 - INFO - Parsing category scores...
+2025-11-19 11:33:44,157 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:33:44,157 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:33:44,157 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:33:44,157 - INFO -   Front: 50L/50R 51T/49B
+2025-11-19 11:33:44,157 - INFO -   Back: 47L/53R 52T/48B
+2025-11-19 11:33:44,157 - INFO - 
+Dimensions: 3.462" x 2.477"
+2025-11-19 11:33:44,157 - INFO - Grade: GEM MINT
+2025-11-19 11:33:44,157 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:33:44,157 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:33:44,157 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:33:44,157 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:33:44,158 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:33:44,158 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:33:44,158 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Front Right: Fray=999, Fill=990
+2025-11-19 11:33:44,158 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Front Left: Fray=1000, Fill=999
+2025-11-19 11:33:44,158 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:33:44,158 - INFO -   Back Left: Fray=1000, Fill=993
+Scraping cards:  50%|█████     | 5/10 [02:51<02:37, 31.44s/it]2025-11-19 11:34:10,151 - INFO - Extracting metadata for: G9411209
+2025-11-19 11:34:15,698 - INFO - Parsing category scores...
+2025-11-19 11:34:15,698 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:34:15,698 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:34:15,698 - INFO -   TAG Score: 956/1000
+2025-11-19 11:34:15,698 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:34:15,698 - INFO -   Front: 45L/55R 46T/54B
+2025-11-19 11:34:15,698 - INFO -   Back: 52L/48R 48T/52B
+2025-11-19 11:34:15,698 - INFO - 
+Dimensions: 3.459" x 2.48"
+2025-11-19 11:34:15,698 - INFO - Grade: GEM MINT
+2025-11-19 11:34:15,698 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:34:15,698 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:34:15,698 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:34:15,698 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:34:15,698 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:34:15,698 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:34:15,698 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Front Right: Fray=999, Fill=986
+2025-11-19 11:34:15,698 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Front Left: Fray=1000, Fill=993
+2025-11-19 11:34:15,698 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Back Right: Fray=1000, Fill=996
+2025-11-19 11:34:15,698 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:15,698 - INFO -   Back Left: Fray=999, Fill=986
+Scraping cards:  60%|██████    | 6/10 [03:19<02:01, 30.41s/it]2025-11-19 11:34:38,542 - INFO - Extracting metadata for: E2061208
+2025-11-19 11:34:43,983 - INFO - Parsing category scores...
+2025-11-19 11:34:43,983 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:34:43,983 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:34:43,983 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:34:43,983 - INFO -   Front: 43L/57R 42T/58B
+2025-11-19 11:34:43,983 - INFO -   Back: 56L/44R 43T/57B
+2025-11-19 11:34:43,983 - INFO - 
+Dimensions: 3.462" x 2.472"
+2025-11-19 11:34:43,983 - INFO - Grade: MINT
+2025-11-19 11:34:43,983 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:34:43,983 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:34:43,983 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:34:43,983 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:34:43,983 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:34:43,983 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:34:43,983 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Front Right: Fray=1000, Fill=998
+2025-11-19 11:34:43,983 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:43,983 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  70%|███████   | 7/10 [03:34<01:15, 25.24s/it]2025-11-19 11:34:53,157 - INFO - Extracting metadata for: T3112136
+2025-11-19 11:34:58,589 - INFO - Parsing category scores...
+2025-11-19 11:34:58,589 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:34:58,589 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:34:58,589 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:34:58,590 - INFO -   Front: 49L/51R 48T/52B
+2025-11-19 11:34:58,590 - INFO -   Back: 47L/53R 51T/49B
+2025-11-19 11:34:58,590 - INFO - 
+Dimensions: 3.463" x 2.473"
+2025-11-19 11:34:58,590 - INFO - Grade: GEM MINT
+2025-11-19 11:34:58,590 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:34:58,590 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:34:58,590 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:34:58,590 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:34:58,590 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:34:58,590 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:34:58,590 - INFO -   Front Top: Fray=999, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:34:58,590 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  80%|████████  | 8/10 [04:02<00:52, 26.35s/it]2025-11-19 11:35:21,872 - INFO - Extracting metadata for: H8668118
+2025-11-19 11:35:27,254 - INFO - Parsing category scores...
+2025-11-19 11:35:27,254 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:35:27,254 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:35:27,254 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:35:27,254 - INFO -   Front: 55L/45R 44T/56B
+2025-11-19 11:35:27,254 - INFO -   Back: 46L/54R 48T/52B
+2025-11-19 11:35:27,254 - INFO - 
+Dimensions: 3.461" x 2.476"
+2025-11-19 11:35:27,254 - INFO - Grade: MINT
+2025-11-19 11:35:27,254 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:35:27,254 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=997
+2025-11-19 11:35:27,254 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:35:27,254 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:35:27,255 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:35:27,255 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:35:27,255 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Front Right: Fray=996, Fill=994
+2025-11-19 11:35:27,255 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Front Left: Fray=999, Fill=998
+2025-11-19 11:35:27,255 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Back Right: Fray=1000, Fill=997
+2025-11-19 11:35:27,255 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:35:27,255 - INFO -   Back Left: Fray=997, Fill=1000
+Scraping cards:  90%|█████████ | 9/10 [04:17<00:22, 22.79s/it]2025-11-19 11:35:36,823 - INFO - Extracting metadata for: Z7636373
+2025-11-19 11:35:42,280 - INFO - Parsing category scores...
+2025-11-19 11:35:42,280 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:35:42,281 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:35:42,281 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:35:42,281 - INFO -   Front: 41L/59R 44T/56B
+2025-11-19 11:35:42,281 - INFO -   Back: 58L/42R 45T/55B
+2025-11-19 11:35:42,281 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:35:42,281 - INFO - Grade: MINT
+2025-11-19 11:35:42,281 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:35:42,281 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:35:42,281 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:35:42,281 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:35:42,281 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:35:42,281 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:35:42,281 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:35:42,281 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards: 100%|██████████| 10/10 [04:48<00:00, 25.14s/it]Scraping cards: 100%|██████████| 10/10 [04:48<00:00, 28.82s/it]
+2025-11-19 11:36:07,561 - INFO - Successfully scraped 10/10 cards
+2025-11-19 11:36:08,737 - INFO - Corner batch loss: 4.2899
+2025-11-19 11:36:09,932 - INFO - Edge batch loss: 4.8159
+2025-11-19 11:36:10,207 - INFO - Centering batch loss: 142.5489
+2025-11-19 11:36:10,207 - INFO - Batch complete - Trained on 10 cards
+2025-11-19 11:36:10,207 - INFO -   Corners: 80 samples
+2025-11-19 11:36:10,207 - INFO -   Edges: 80 samples
+2025-11-19 11:36:10,207 - INFO -   Centering: 10 samples
+2025-11-19 11:36:10,207 - INFO - 
+Processing batch 7/7
+2025-11-19 11:36:11,065 - INFO - Chrome WebDriver initialized
+Scraping cards:   0%|          | 0/6 [00:00<?, ?it/s]2025-11-19 11:36:11,065 - INFO - Extracting metadata for: Y9603164
+2025-11-19 11:36:20,470 - INFO - Parsing category scores...
+2025-11-19 11:36:20,470 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:36:20,470 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:36:20,470 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:36:20,470 - INFO -   Front: 48L/52R 42T/58B
+2025-11-19 11:36:20,470 - INFO -   Back: 44L/56R 43T/57B
+2025-11-19 11:36:20,470 - INFO - 
+Dimensions: 3.463" x 2.473"
+2025-11-19 11:36:20,470 - INFO - Grade: MINT
+2025-11-19 11:36:20,470 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:36:20,470 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:36:20,470 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:36:20,470 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:36:20,470 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:36:20,470 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:36:20,470 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:36:20,470 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:36:20,470 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:36:20,470 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:36:20,470 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:36:20,470 - INFO -   Front Right: Fray=999, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:36:20,471 - INFO -   Back Left: Fray=1000, Fill=999
+Scraping cards:  17%|█▋        | 1/6 [00:44<03:41, 44.35s/it]2025-11-19 11:36:55,413 - INFO - Extracting metadata for: Q3185857
+2025-11-19 11:37:00,975 - INFO - Parsing category scores...
+2025-11-19 11:37:00,975 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:37:00,975 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:37:00,975 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:37:00,975 - INFO -   Front: 47L/53R 33T/67B
+2025-11-19 11:37:00,975 - INFO -   Back: 54L/46R 38T/62B
+2025-11-19 11:37:00,975 - INFO - 
+Dimensions: 3.462" x 2.471"
+2025-11-19 11:37:00,975 - INFO - Grade: NEAR MINT
+2025-11-19 11:37:00,975 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:37:00,975 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:37:00,975 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=996
+2025-11-19 11:37:00,975 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:37:00,975 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:37:00,975 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:37:00,975 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:37:00,975 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:37:00,975 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  33%|███▎      | 2/6 [01:28<02:57, 44.38s/it]2025-11-19 11:37:39,819 - INFO - Extracting metadata for: H3719836
+2025-11-19 11:37:45,261 - INFO - Parsing category scores...
+2025-11-19 11:37:45,261 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:37:45,261 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:37:45,262 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:37:45,262 - INFO -   Front: 41L/59R 42T/58B
+2025-11-19 11:37:45,262 - INFO -   Back: 59L/41R 42T/58B
+2025-11-19 11:37:45,262 - INFO - 
+Dimensions: 3.465" x 2.474"
+2025-11-19 11:37:45,262 - INFO - Grade: MINT
+2025-11-19 11:37:45,262 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:37:45,262 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:37:45,262 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:37:45,262 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=993
+2025-11-19 11:37:45,262 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:37:45,262 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:37:45,262 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Front Right: Fray=999, Fill=998
+2025-11-19 11:37:45,262 - INFO -   Front Bottom: Fray=1000, Fill=999
+2025-11-19 11:37:45,262 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:37:45,262 - INFO -   Back Left: Fray=999, Fill=1000
+Scraping cards:  50%|█████     | 3/6 [02:01<01:57, 39.26s/it]2025-11-19 11:38:12,989 - INFO - Extracting metadata for: R2803288
+2025-11-19 11:38:18,542 - INFO - Parsing category scores...
+2025-11-19 11:38:18,542 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:38:18,542 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:38:18,542 - INFO -   TAG Score: 961/1000
+2025-11-19 11:38:18,542 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:38:18,542 - INFO -   Front: 54L/46R 49T/51B
+2025-11-19 11:38:18,542 - INFO -   Back: 45L/55R 51T/49B
+2025-11-19 11:38:18,542 - INFO - 
+Dimensions: 3.459" x 2.472"
+2025-11-19 11:38:18,542 - INFO - Grade: GEM MINT
+2025-11-19 11:38:18,542 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:38:18,542 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:38:18,542 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:38:18,542 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=999
+2025-11-19 11:38:18,542 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=998
+2025-11-19 11:38:18,542 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:38:18,542 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:38:18,542 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:38:18,542 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:38:18,542 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:38:18,542 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Front Right: Fray=998, Fill=997
+2025-11-19 11:38:18,543 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:38:18,543 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  67%|██████▋   | 4/6 [02:31<01:10, 35.27s/it]2025-11-19 11:38:42,131 - INFO - Extracting metadata for: Q4601248
+2025-11-19 11:38:47,559 - INFO - Parsing category scores...
+2025-11-19 11:38:47,559 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:38:47,559 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:38:47,559 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:38:47,559 - INFO -   Front: 48L/52R 51T/49B
+2025-11-19 11:38:47,559 - INFO -   Back: 46L/54R 52T/48B
+2025-11-19 11:38:47,559 - INFO - 
+Dimensions: 3.467" x 2.476"
+2025-11-19 11:38:47,559 - INFO - Grade: GEM MINT
+2025-11-19 11:38:47,559 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:38:47,559 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:38:47,559 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:38:47,559 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:38:47,559 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:38:47,559 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:38:47,559 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:38:47,559 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:38:47,559 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:38:47,559 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:38:47,560 - INFO -   Front Top: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Front Right: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Front Bottom: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:38:47,560 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards:  83%|████████▎ | 5/6 [03:03<00:34, 34.32s/it]2025-11-19 11:39:14,779 - INFO - Extracting metadata for: X4168487
+2025-11-19 11:39:20,251 - INFO - Parsing category scores...
+2025-11-19 11:39:20,251 - INFO - 
+Parsing DINGS counts...
+2025-11-19 11:39:20,251 - INFO - 
+Parsing TAG Score...
+2025-11-19 11:39:20,251 - INFO - 
+Parsing centering measurements (string format)...
+2025-11-19 11:39:20,251 - INFO -   Front: 57L/43R 45T/55B
+2025-11-19 11:39:20,251 - INFO -   Back: 45L/55R 48T/52B
+2025-11-19 11:39:20,251 - INFO - 
+Dimensions: 3.464" x 2.473"
+2025-11-19 11:39:20,251 - INFO - Grade: MINT
+2025-11-19 11:39:20,251 - INFO - 
+Extracting individual corner scores...
+2025-11-19 11:39:20,251 - INFO -   Front TL: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:39:20,251 - INFO -   Front TR: Fray=1000, Fill=1000, Angle=995
+2025-11-19 11:39:20,251 - INFO -   Front BL: Fray=1000, Fill=1000, Angle=992
+2025-11-19 11:39:20,251 - INFO -   Front BR: Fray=1000, Fill=1000, Angle=994
+2025-11-19 11:39:20,251 - INFO -   Back TL: Fray=1000, Fill=1000
+2025-11-19 11:39:20,251 - INFO -   Back TR: Fray=1000, Fill=1000
+2025-11-19 11:39:20,251 - INFO -   Back BL: Fray=1000, Fill=1000
+2025-11-19 11:39:20,251 - INFO -   Back BR: Fray=1000, Fill=1000
+2025-11-19 11:39:20,252 - INFO - 
+Extracting individual edge scores...
+2025-11-19 11:39:20,252 - INFO -   Front Top: Fray=1000, Fill=999
+2025-11-19 11:39:20,252 - INFO -   Front Right: Fray=999, Fill=997
+2025-11-19 11:39:20,252 - INFO -   Front Bottom: Fray=1000, Fill=998
+2025-11-19 11:39:20,252 - INFO -   Front Left: Fray=1000, Fill=1000
+2025-11-19 11:39:20,252 - INFO -   Back Top: Fray=1000, Fill=1000
+2025-11-19 11:39:20,252 - INFO -   Back Right: Fray=1000, Fill=1000
+2025-11-19 11:39:20,252 - INFO -   Back Bottom: Fray=1000, Fill=1000
+2025-11-19 11:39:20,252 - INFO -   Back Left: Fray=1000, Fill=1000
+Scraping cards: 100%|██████████| 6/6 [03:31<00:00, 31.93s/it]Scraping cards: 100%|██████████| 6/6 [03:31<00:00, 35.17s/it]
+2025-11-19 11:39:42,261 - INFO - Successfully scraped 6/6 cards
+2025-11-19 11:39:42,925 - INFO - Corner batch loss: 5.7023
+2025-11-19 11:39:43,552 - INFO - Edge batch loss: 0.3904
+2025-11-19 11:39:43,700 - INFO - Centering batch loss: 127.2911
+2025-11-19 11:39:43,700 - INFO - Batch complete - Trained on 6 cards
+2025-11-19 11:39:43,700 - INFO -   Corners: 48 samples
+2025-11-19 11:39:43,701 - INFO -   Edges: 48 samples
+2025-11-19 11:39:43,701 - INFO -   Centering: 6 samples
+2025-11-19 11:39:44,456 - INFO - ✓ Saved models (after 66 cards)
+2025-11-19 11:39:44,456 - INFO - 
+============================================================
+2025-11-19 11:39:44,456 - INFO - TRAINING SUMMARY
+2025-11-19 11:39:44,456 - INFO - ============================================================
+2025-11-19 11:39:44,456 - INFO - Total cards trained: 66
+2025-11-19 11:39:44,456 - INFO - Corner - Avg loss: 4.1403
+2025-11-19 11:39:44,456 - INFO - Edge - Avg loss: 3.1599
+2025-11-19 11:39:44,456 - INFO - Centering - Avg loss: 117.3653
